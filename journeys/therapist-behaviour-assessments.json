@@ -1,0 +1,6252 @@
+{
+  "name": "Therapist - Behaviour Assessments",
+  "description": "Default description",
+  "uuid": "d2692f38-0815-418a-acd3-9ebf1dda396e",
+  "resources": [
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "f90161d0-55bb-47c5-9e2f-88092b68030e"
+    },
+    {
+      "values": [
+        {
+          "value": "\"system\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "4768ed82-537d-4777-9a14-0f6c39e55453"
+    },
+    {
+      "values": [
+        {
+          "value": "\"Acknowledge @contact.name and share evidence related to @event.message.text.body to engage @contact.name. Ask a follow-up question in 90 characters at the end. Use emojis and encourage detailed responses. Do not cite anything\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "fcabc680-1b66-46d7-a4dd-b72c02ab00fc"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "13abb88d-1a2e-4fa1-9f69-d958a49dbf86"
+    },
+    {
+      "values": [
+        {
+          "value": "@ref_GenerateContextQuestion ",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "ac1af105-95db-45ef-8101-e7227f39434c"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "b5106992-f3e5-4a55-99c4-9b9a6f5a1337"
+    },
+    {
+      "values": [
+        {
+          "value": "\"system\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "fa05bc04-4baf-4d89-9984-75ad44b76887"
+    },
+    {
+      "values": [
+        {
+          "value": "\"Respond with two evidence-based sentences related to @event.message.text.body. Ask a follow-up question in at the end. Use emojis for each sentence. Do not cite anything. Be caring and supportive. Start each sentence on a new line. Character count for each is 100 or less.\n\nContextualise to @contact.country \"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "d00b333d-1555-4e24-9790-1686f6812bfe"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "56bcc0ac-2a03-42a5-a48a-1124d65de4f7"
+    },
+    {
+      "values": [
+        {
+          "value": "@ref_GenerateClarifyingQuestion ",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "b374082e-61b6-45f7-8345-02ddfc57fcef"
+    },
+    {
+      "values": [
+        {
+          "value": "@ref_GenerateMoreInfo ",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "d87230b1-61a5-47d5-b6ba-721cd9ff94d1"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "b31166c6-9e15-4a0b-b388-76e83544f6e4"
+    },
+    {
+      "values": [
+        {
+          "value": "\"system\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "448bc764-0308-4b4a-8dee-a9c35e473116"
+    },
+    {
+      "values": [
+        {
+          "value": "\"In 120 characters or less, generate a questions based on @contact.name's response on  @ref_ . The goal of this question is to get more context and clarity from @contact.name. Go straight to the question. Do not cite anything.\u0001\u0001Where possible, give examples. Use an emoji at the end or at the start of the question. Validate's @contact.name's point in a kind and supportive way.\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "b0114c6a-7203-4fa6-a946-5aa15bbf3fd7"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "7ac0d74d-88b4-422d-ad37-f64784f5faaf"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "70213bc5-f6b9-4d8b-9d1d-6837f4391d53"
+    },
+    {
+      "values": [
+        {
+          "value": "\"system\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "815be24a-deae-4c73-8dad-00cff59945ae"
+    },
+    {
+      "values": [
+        {
+          "value": "\"In 150 characters, acknowledge the user's efforts and responses. Provide validated best practices on @ref_TalkingPoints. At the end of your response, ask the user if they understand you. Do not cite any thing. Go straight to the question. \u0001\u0001Response should consider @ref_GenerateInitialQuestion @ref_FinalQuestion @ref_Recommendation @ref_GenerateContextQuestion @ref_ContextQuestion @ref_InitialQuestion @ref_Reaction \"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "cadb0fa9-e039-4ee0-9de7-5528d6833464"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "041ac3ca-b5b2-466f-b841-d9692d191f49"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "f38eb0a4-cf51-4663-84da-75934a615394"
+    },
+    {
+      "values": [
+        {
+          "value": "\"system\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "dcca6ff7-8aff-458f-b7c2-4a6509ab4a20"
+    },
+    {
+      "values": [
+        {
+          "value": "\"In 3 sentences, using the entire conversation, encourage the user to try your recommendation for the topic. Share a case study on how the recommendations have worked for others. Generate a wrap-up message expressing how it has been a pleasure helping @contact.name  on @ref_TalkingPoints  Refer to the user as @contact.name\u0001\u0001Recommendation: @ref_Recommendation \u0001Topic: @ref_TalkingPoints \u0001Strict character count limit: 200.\u0001\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "13469dac-886a-477a-a4ad-42e07be2b468"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "9519ccfc-5e77-417e-89c5-b0c23638e9d4"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "f55016c6-9c29-4a29-b876-46437166b1c0"
+    },
+    {
+      "values": [
+        {
+          "value": "\"user\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "cc89437e-dc54-4373-994a-7327123582ca"
+    },
+    {
+      "values": [
+        {
+          "value": "event.message.text.body",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "5b3af6e3-864a-4d32-b314-b8b7fabcb073"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "c87d321a-51c9-47c4-a0e7-0f9e36699b93"
+    },
+    {
+      "values": [
+        {
+          "value": "\"system\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "5db5ce07-420b-4b49-a06b-cd31f5cde40f"
+    },
+    {
+      "values": [
+        {
+          "value": "\"Does the user's response demonstrate they understand the recommendation provided in @ref_Recommendation ?\u0001\u0001user response:\u0001@event.message.text.body \"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "83c5d81e-4a04-46de-817e-e0ee7b1d3bd6"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "6b6242df-35b5-4e3f-88a8-4276a3a7dd9a"
+    },
+    {
+      "values": [
+        {
+          "value": "\"system\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "1931b462-7e99-4d71-ae54-3768215701c4"
+    },
+    {
+      "values": [
+        {
+          "value": "[\"Respond with one of the options below:\", \"1.Yes\", \"2.No\", \"Reply exclusively with 1, 2 or, if it doesn\u2019t match any, reply with 'else'.\"]",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "b526b820-38a7-493b-9934-9a3be19e1a4b"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "1ac12f05-b7d2-4305-87da-0c5875a0563b"
+    },
+    {
+      "values": [
+        {
+          "value": "@ref_Recommendation ",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "a0de48dc-aba1-4ec9-bebf-ee43dae30349"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "58b4d037-fa85-4d39-b645-0703304599a9"
+    },
+    {
+      "values": [
+        {
+          "value": "\"system\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "a48f1256-29e2-4feb-a9ce-586cb0d4c436"
+    },
+    {
+      "values": [
+        {
+          "value": "\"In 200 characters, give @contact.name an evidence-based recommendation on  @ref_TalkingPoints based on @event.message.text.body, and @ref_FinalQuestion. Use emojis in each sentence. Ask a follow-up question at the end to test the user's understanding. Use emojis in each sentence. Leave spaces in between sentences.\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "50859989-5a23-4ed6-8bef-8e8d6323ed3e"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "99e5aa1c-5abd-4cf4-b1e8-197a57a8b101"
+    },
+    {
+      "values": [
+        {
+          "value": "@ref_GenerateInitialQuestion ",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "424100aa-0e50-414f-a6a9-8caa2d37f65f"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "b95e4c1f-2e81-4dbe-bfe0-5330ea775181"
+    },
+    {
+      "values": [
+        {
+          "value": "\"system\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "56bdd3ca-64c4-47a3-bad0-6f76a6a74601"
+    },
+    {
+      "values": [
+        {
+          "value": "\"Generate evidence on the importance of the selected topic related to effective behaviour assessments for children with behaviour and developmental challenges. Ask the user a related question to get more details on the topic. Each sentence should be exactly 90 characters long.\u0001\u0001Topic: @event.message.text.body \"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "f8db09e7-d66b-487c-b8e9-e987d8215fc3"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "82ddc4f7-7cc2-42c8-b185-6578c38b4eff"
+    },
+    {
+      "values": [
+        {
+          "value": "\ud83d\ude2e *Oops*. You have been found guilty of not tapping a button. \n\nLet's try again. \ud83d\ude3c",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "b9e4f743-61d4-4b4f-b4f8-bd389aea866d"
+    },
+    {
+      "values": [
+        {
+          "value": "@ref_WelcomeMessage\n\nWhat would like to discuss today? \ud83d\ude0a",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        },
+        {
+          "value": "Select a Talking Point",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "0b1d91b1-c616-46af-8bc0-0b9d137a6775"
+    },
+    {
+      "values": [
+        {
+          "value": "Conducting ABCs \ud83d\udd0d",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "05c193ae-3b67-4503-8454-30ccf00583c6"
+    },
+    {
+      "values": [
+        {
+          "value": "Identify Triggers \ud83d\udea6",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "77fbe8fd-b85f-4a5c-bb5e-f31cbae40ed6"
+    },
+    {
+      "values": [
+        {
+          "value": "Set Up Observations \ud83d\udc40",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "fc7de36c-943d-4555-a43f-dda040f15db1"
+    },
+    {
+      "values": [
+        {
+          "value": "Analyse ABC Data \ud83d\udcca",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "f2a7959f-c68c-4d7e-818d-0fc652d0f4a7"
+    },
+    {
+      "values": [
+        {
+          "value": "Data-informed Plans \ud83d\udee0\ufe0f",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "2aa7a008-5f28-42e9-ae89-41821bfb8391"
+    },
+    {
+      "values": [
+        {
+          "value": "Other \ud83d\udd04",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "299cb90a-d885-4ee9-bb00-46d85fa60025"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "abe3e499-1780-4a1e-ad37-73892808853c"
+    },
+    {
+      "values": [
+        {
+          "value": "\"system\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "b76d4756-be45-4bb3-b579-1aa72b661db6"
+    },
+    {
+      "values": [
+        {
+          "value": "\"Generate two sentences on the importance of effective behaviour assessments for children with behaviour and developmental challenges. Character count for each sentence is 70 long. Use emojis in each sentence, start new sentences on a new line with space between each new sentence.\"",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "30f502c9-7203-4669-9507-8edaf697e8db"
+    },
+    {
+      "values": [
+        {
+          "value": "ai",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "1d5611f0-243f-4fb4-9622-1b969c9e85b0"
+    },
+    {
+      "values": [
+        {
+          "value": "*\ud83d\ude23 Oops. Seems you laid an egg.* You need to tap a button to select an option.\n\nLet's try again. \ud83d\ude0a",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "08bf4acc-fcaf-4229-b509-867cc67ab3e0"
+    },
+    {
+      "values": [
+        {
+          "value": "@ref_GenerateFinalQuestion ",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "d23f155d-f416-44ca-a212-90184f36fd69"
+    },
+    {
+      "values": [
+        {
+          "value": " @ref_GenerateWrapUp \n\nWhat would you like to do next?",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "a6e6d280-4d25-4177-9eb7-af376cf84a2c"
+    },
+    {
+      "values": [
+        {
+          "value": "\tSession Planning \ud83d\udcc5",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "6905ba97-be73-4cc1-8415-4c31ef9d02bd"
+    },
+    {
+      "values": [
+        {
+          "value": "Resource Library \ud83d\udcda",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "2c5677f5-84be-408c-93b1-a145d8b3f62c"
+    },
+    {
+      "values": [
+        {
+          "value": "Back to menu \u21a9\ufe0f",
+          "modes": [
+            "RICH_MESSAGING"
+          ],
+          "content_type": "TEXT",
+          "mime_type": "text/plain",
+          "language_id": "b60882af-0565-4ba4-b375-2b189dc02a16"
+        }
+      ],
+      "uuid": "9dbe0af3-4695-40e3-b787-78f94d998008"
+    }
+  ],
+  "flows": [
+    {
+      "label": null,
+      "name": "stack",
+      "blocks": [
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.OpenAI.ConnectAssistant",
+          "config": {
+            "type": "connect_assistant",
+            "config": {}
+          },
+          "tags": [],
+          "uuid": "439f923d-8a0c-595f-a397-af9a2e4cf054",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "ef07cf3f-1f85-4ea9-87f3-44c9ca24865c",
+              "destination_block": "bf09898e-33d5-59b3-a7a1-cf911f7adef3",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 239
+                      },
+                      "name": "GenerateFinalQuestion",
+                      "uuid": "e6980c48-fdea-5ef5-bb8a-05bcf494255e"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 240
+                      },
+                      "openai_assistant": {},
+                      "type": "openai_assistant"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.AI.AddMessage",
+          "config": {
+            "type": "add_message",
+            "config": {
+              "message": "fcabc680-1b66-46d7-a4dd-b72c02ab00fc",
+              "connection": "f90161d0-55bb-47c5-9e2f-88092b68030e",
+              "role": "4768ed82-537d-4777-9a14-0f6c39e55453"
+            }
+          },
+          "tags": [],
+          "uuid": "bf09898e-33d5-59b3-a7a1-cf911f7adef3",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "c1955ed2-683e-47ec-8170-b1b0429d81f4",
+              "destination_block": "390877a5-8a71-5d9b-8062-6b15d1b34aec",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 239
+                      },
+                      "name": "GenerateFinalQuestion",
+                      "uuid": "e6980c48-fdea-5ef5-bb8a-05bcf494255e"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 242
+                      },
+                      "openai_add_message": {},
+                      "type": "openai_add_message"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_GenerateFinalQuestion_completion",
+          "type": "Io.Turn.AI.ChatCompletion",
+          "config": {
+            "type": "chat_completion",
+            "config": {
+              "connection": "13abb88d-1a2e-4fa1-9f69-d958a49dbf86"
+            }
+          },
+          "tags": [],
+          "uuid": "390877a5-8a71-5d9b-8062-6b15d1b34aec",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_GenerateFinalQuestion_completion",
+              "config": {},
+              "test": "",
+              "uuid": "c3e00a53-2c07-4fed-b19e-21c70c3a3094",
+              "destination_block": "3aef0bc7-c80c-538b-b1ce-9266f38e60a1",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 239
+                      },
+                      "name": "GenerateFinalQuestion",
+                      "uuid": "e6980c48-fdea-5ef5-bb8a-05bcf494255e"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 249
+                      },
+                      "openai_chat_completion": {},
+                      "type": "openai_chat_completion"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_GenerateFinalQuestion",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "3aef0bc7-c80c-538b-b1ce-9266f38e60a1",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_GenerateFinalQuestion_completion.response",
+              "config": {},
+              "test": "",
+              "uuid": "916dff41-e74b-4564-8757-e48511c22e4b",
+              "destination_block": "7f5263e2-7998-5f1c-a629-1337474feb80",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 239
+                      },
+                      "name": "GenerateFinalQuestion",
+                      "uuid": "e6980c48-fdea-5ef5-bb8a-05bcf494255e"
+                    },
+                    "card_item": {
+                      "expression": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 250
+                      },
+                      "type": "expression"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "FinalQuestion",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_GenerateFinalQuestion"
+          },
+          "tags": [],
+          "uuid": "7f5263e2-7998-5f1c-a629-1337474feb80",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "FinalQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "93411d24-d139-43da-b1d2-6f72185b49a6",
+              "destination_block": "34569ee5-e092-507a-862f-dbde84939d31",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 239
+                      },
+                      "name": "GenerateFinalQuestion",
+                      "uuid": "e6980c48-fdea-5ef5-bb8a-05bcf494255e"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 251
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for GenerateFinalQuestion",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "34569ee5-e092-507a-862f-dbde84939d31",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for FinalQuestion",
+              "config": {},
+              "test": "true",
+              "uuid": "8b3259ce-e1fc-4d90-961c-188ebc4584e4",
+              "destination_block": "2393bb37-d246-577a-a78a-1584a76d4af1",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for GenerateFinalQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "13a06ac1-27cb-48fa-a1fd-ba2f09921632",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 239
+                      },
+                      "name": "GenerateFinalQuestion",
+                      "uuid": "e6980c48-fdea-5ef5-bb8a-05bcf494255e"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 252
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_ContextQuestion",
+          "type": "MobilePrimitives.OpenResponse",
+          "config": {
+            "prompt": "ac1af105-95db-45ef-8101-e7227f39434c",
+            "max_response_characters": null
+          },
+          "tags": [],
+          "uuid": "c600a022-3fa7-5d21-b04e-2851ede43b80",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_ContextQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "f47b2f4e-e1c3-4d20-953d-18e9fe826829",
+              "destination_block": "86c4614c-015f-553d-b664-e6a36282790a",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 233
+                      },
+                      "name": "ContextQuestion",
+                      "uuid": "224f61d5-82c4-5ba4-98f2-ec534c8d022f"
+                    },
+                    "card_item": {
+                      "ask": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 234
+                      },
+                      "type": "ask"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ContextQuestionResponse",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_ContextQuestion"
+          },
+          "tags": [],
+          "uuid": "86c4614c-015f-553d-b664-e6a36282790a",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ContextQuestionResponse",
+              "config": {},
+              "test": "",
+              "uuid": "815c0ec2-79fd-40a8-8079-51ce93d051dd",
+              "destination_block": "91aa7eae-f7de-581f-ae11-767469b1d6c2",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 233
+                      },
+                      "name": "ContextQuestion",
+                      "uuid": "224f61d5-82c4-5ba4-98f2-ec534c8d022f"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 235
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for ContextQuestion",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "91aa7eae-f7de-581f-ae11-767469b1d6c2",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for GenerateFinalQuestion",
+              "config": {},
+              "test": "true",
+              "uuid": "20de7a20-18aa-43a5-be1c-d528b3ace7b8",
+              "destination_block": "439f923d-8a0c-595f-a397-af9a2e4cf054",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for ContextQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "f14ee175-d19b-4c81-b405-226f58939a01",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 233
+                      },
+                      "name": "ContextQuestion",
+                      "uuid": "224f61d5-82c4-5ba4-98f2-ec534c8d022f"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 236
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.OpenAI.ConnectAssistant",
+          "config": {
+            "type": "connect_assistant",
+            "config": {}
+          },
+          "tags": [],
+          "uuid": "e1965952-8eb8-51e9-b575-b01d7391ac6c",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "9d6f44e9-4eb2-487f-b337-3336e7181e08",
+              "destination_block": "51533a32-f0cf-5648-ba76-c8453dcc02d1",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 215
+                      },
+                      "name": "GenerateContextQuestion",
+                      "uuid": "eccaa3cd-9f90-539b-9d95-1136290b9478"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 216
+                      },
+                      "openai_assistant": {},
+                      "type": "openai_assistant"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.AI.AddMessage",
+          "config": {
+            "type": "add_message",
+            "config": {
+              "message": "d00b333d-1555-4e24-9790-1686f6812bfe",
+              "connection": "b5106992-f3e5-4a55-99c4-9b9a6f5a1337",
+              "role": "fa05bc04-4baf-4d89-9984-75ad44b76887"
+            }
+          },
+          "tags": [],
+          "uuid": "51533a32-f0cf-5648-ba76-c8453dcc02d1",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "93da8478-f2f5-4616-b7ce-42b3795d50f0",
+              "destination_block": "a8d3ee35-75ae-57f9-8fe6-d08ab1b25096",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 215
+                      },
+                      "name": "GenerateContextQuestion",
+                      "uuid": "eccaa3cd-9f90-539b-9d95-1136290b9478"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 218
+                      },
+                      "openai_add_message": {},
+                      "type": "openai_add_message"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_GenerateContextQuestion_completion",
+          "type": "Io.Turn.AI.ChatCompletion",
+          "config": {
+            "type": "chat_completion",
+            "config": {
+              "connection": "56bcc0ac-2a03-42a5-a48a-1124d65de4f7"
+            }
+          },
+          "tags": [],
+          "uuid": "a8d3ee35-75ae-57f9-8fe6-d08ab1b25096",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_GenerateContextQuestion_completion",
+              "config": {},
+              "test": "",
+              "uuid": "8a996de4-adc6-425f-9059-e9b3d43b5359",
+              "destination_block": "2288d5fb-9c18-521a-b02e-6919a0461f37",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 215
+                      },
+                      "name": "GenerateContextQuestion",
+                      "uuid": "eccaa3cd-9f90-539b-9d95-1136290b9478"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 227
+                      },
+                      "openai_chat_completion": {},
+                      "type": "openai_chat_completion"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_GenerateContextQuestion",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "2288d5fb-9c18-521a-b02e-6919a0461f37",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_GenerateContextQuestion_completion.response",
+              "config": {},
+              "test": "",
+              "uuid": "2a6b6c6a-65b1-484f-9a4a-4e4754341159",
+              "destination_block": "63cd7de0-813d-54ce-ba2d-28ba4e4ca219",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 215
+                      },
+                      "name": "GenerateContextQuestion",
+                      "uuid": "eccaa3cd-9f90-539b-9d95-1136290b9478"
+                    },
+                    "card_item": {
+                      "expression": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 228
+                      },
+                      "type": "expression"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ContextQuestion",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_GenerateContextQuestion"
+          },
+          "tags": [],
+          "uuid": "63cd7de0-813d-54ce-ba2d-28ba4e4ca219",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ContextQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "2acb0d2b-753e-40ee-8167-a23b46d2b39a",
+              "destination_block": "0231b333-cc3c-5e4c-9726-05990ae74d39",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 215
+                      },
+                      "name": "GenerateContextQuestion",
+                      "uuid": "eccaa3cd-9f90-539b-9d95-1136290b9478"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 229
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for GenerateContextQuestion",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "0231b333-cc3c-5e4c-9726-05990ae74d39",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for ContextQuestion",
+              "config": {},
+              "test": "true",
+              "uuid": "dcc564b0-e267-48e3-8104-a398e0e33e9b",
+              "destination_block": "c600a022-3fa7-5d21-b04e-2851ede43b80",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for GenerateContextQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "65153a46-44a3-4fe3-a079-31eaa757be8c",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 215
+                      },
+                      "name": "GenerateContextQuestion",
+                      "uuid": "eccaa3cd-9f90-539b-9d95-1136290b9478"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 230
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_ClarifyingQuestion",
+          "type": "MobilePrimitives.OpenResponse",
+          "config": {
+            "prompt": "b374082e-61b6-45f7-8345-02ddfc57fcef",
+            "max_response_characters": null
+          },
+          "tags": [],
+          "uuid": "ff0a64e3-3215-58f1-a478-4ca4356494ec",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_ClarifyingQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "4294e7b6-268b-42b5-8abb-e9a0043f0483",
+              "destination_block": "3537d786-8a45-5074-a49a-4f61a3050de5",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 195
+                      },
+                      "name": "ClarifyingQuestion",
+                      "uuid": "74d3cbf2-5782-5748-98e4-13c5da8682d9"
+                    },
+                    "card_item": {
+                      "ask": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 196
+                      },
+                      "type": "ask"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Clarifying_question_response",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_ClarifyingQuestion"
+          },
+          "tags": [],
+          "uuid": "3537d786-8a45-5074-a49a-4f61a3050de5",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "Clarifying_question_response",
+              "config": {},
+              "test": "",
+              "uuid": "36a794ae-2063-421a-857a-437de6db1a21",
+              "destination_block": "417b264c-c1ee-58b3-94b3-3ae073c17df0",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 195
+                      },
+                      "name": "ClarifyingQuestion",
+                      "uuid": "74d3cbf2-5782-5748-98e4-13c5da8682d9"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 197
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for ClarifyingQuestion",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "417b264c-c1ee-58b3-94b3-3ae073c17df0",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for ClassifyResponse",
+              "config": {},
+              "test": "true",
+              "uuid": "d81cf41e-ff3f-46a5-aefb-565131fcb391",
+              "destination_block": "ddab0500-240a-594f-aa1d-d774eb3e3997",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for ClarifyingQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "2807001c-5924-4033-ba7d-ac2449fb36fa",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 195
+                      },
+                      "name": "ClarifyingQuestion",
+                      "uuid": "74d3cbf2-5782-5748-98e4-13c5da8682d9"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 198
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_MoreInfo",
+          "type": "MobilePrimitives.OpenResponse",
+          "config": {
+            "prompt": "d87230b1-61a5-47d5-b6ba-721cd9ff94d1",
+            "max_response_characters": null
+          },
+          "tags": [],
+          "uuid": "bdc7b6a0-05e9-57ca-8c67-1f30e7b1b1fe",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_MoreInfo",
+              "config": {},
+              "test": "",
+              "uuid": "21253764-6daa-4d57-8d70-88fd521f8e2a",
+              "destination_block": "7fabb504-1b5a-55be-8909-01c764948a93",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 261
+                      },
+                      "name": "MoreInfo",
+                      "uuid": "f7538b5a-e597-5778-8923-9aec57e1d4ef"
+                    },
+                    "card_item": {
+                      "ask": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 262
+                      },
+                      "type": "ask"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "MoreInfoResponse",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_MoreInfo"
+          },
+          "tags": [],
+          "uuid": "7fabb504-1b5a-55be-8909-01c764948a93",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "MoreInfoResponse",
+              "config": {},
+              "test": "",
+              "uuid": "86444482-6e9d-4486-b03d-bc733af50160",
+              "destination_block": "a1121f92-9d07-56e2-a4c2-727e2035ec19",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 261
+                      },
+                      "name": "MoreInfo",
+                      "uuid": "f7538b5a-e597-5778-8923-9aec57e1d4ef"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 263
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for MoreInfo",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "a1121f92-9d07-56e2-a4c2-727e2035ec19",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for ClassifyResponse",
+              "config": {},
+              "test": "true",
+              "uuid": "a072028a-5258-4d3b-bcf7-9e51c34dda67",
+              "destination_block": "ddab0500-240a-594f-aa1d-d774eb3e3997",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for MoreInfo",
+              "config": {},
+              "test": "",
+              "uuid": "0476c79c-4671-45c4-b9bc-0fd950717148",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 261
+                      },
+                      "name": "MoreInfo",
+                      "uuid": "f7538b5a-e597-5778-8923-9aec57e1d4ef"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 264
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.OpenAI.ConnectAssistant",
+          "config": {
+            "type": "connect_assistant",
+            "config": {}
+          },
+          "tags": [],
+          "uuid": "05b373ac-3713-5ab9-a814-1ca676a404b7",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "3a57c6e1-f6a6-4fd5-8226-4072efc2212d",
+              "destination_block": "3d154a3a-c037-57b0-a974-f864ff05eb8f",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 179
+                      },
+                      "name": "GenerateClarifyingQuestion",
+                      "uuid": "2f7290d9-67c2-53b0-98a1-6b72711e95be"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 180
+                      },
+                      "openai_assistant": {},
+                      "type": "openai_assistant"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.AI.AddMessage",
+          "config": {
+            "type": "add_message",
+            "config": {
+              "message": "b0114c6a-7203-4fa6-a946-5aa15bbf3fd7",
+              "connection": "b31166c6-9e15-4a0b-b388-76e83544f6e4",
+              "role": "448bc764-0308-4b4a-8dee-a9c35e473116"
+            }
+          },
+          "tags": [],
+          "uuid": "3d154a3a-c037-57b0-a974-f864ff05eb8f",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "ec89c7cb-bb46-4f46-be86-0e098a1cd794",
+              "destination_block": "c3123e35-3704-50df-b713-505d31abcb45",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 179
+                      },
+                      "name": "GenerateClarifyingQuestion",
+                      "uuid": "2f7290d9-67c2-53b0-98a1-6b72711e95be"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 182
+                      },
+                      "openai_add_message": {},
+                      "type": "openai_add_message"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_GenerateClarifyingQuestion_completion",
+          "type": "Io.Turn.AI.ChatCompletion",
+          "config": {
+            "type": "chat_completion",
+            "config": {
+              "connection": "7ac0d74d-88b4-422d-ad37-f64784f5faaf"
+            }
+          },
+          "tags": [],
+          "uuid": "c3123e35-3704-50df-b713-505d31abcb45",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_GenerateClarifyingQuestion_completion",
+              "config": {},
+              "test": "",
+              "uuid": "734f0d39-0eaf-493e-8f78-8d24021fef3a",
+              "destination_block": "2452ac32-27a8-5cc7-9242-ad5ff1a081a8",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 179
+                      },
+                      "name": "GenerateClarifyingQuestion",
+                      "uuid": "2f7290d9-67c2-53b0-98a1-6b72711e95be"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 189
+                      },
+                      "openai_chat_completion": {},
+                      "type": "openai_chat_completion"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_GenerateClarifyingQuestion",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "2452ac32-27a8-5cc7-9242-ad5ff1a081a8",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_GenerateClarifyingQuestion_completion.response",
+              "config": {},
+              "test": "",
+              "uuid": "cd633fbc-6505-4ac6-9cbb-9cf33f656025",
+              "destination_block": "87d5b231-b99f-5d05-95e5-71d6eac64369",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 179
+                      },
+                      "name": "GenerateClarifyingQuestion",
+                      "uuid": "2f7290d9-67c2-53b0-98a1-6b72711e95be"
+                    },
+                    "card_item": {
+                      "expression": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 190
+                      },
+                      "type": "expression"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Generate_clarifying_question",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_GenerateClarifyingQuestion"
+          },
+          "tags": [],
+          "uuid": "87d5b231-b99f-5d05-95e5-71d6eac64369",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "Generate_clarifying_question",
+              "config": {},
+              "test": "",
+              "uuid": "d1fcc01a-4e12-4b73-8a13-30c9e8495534",
+              "destination_block": "e75d89d7-04fd-5266-aea3-adebe3d0d12a",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 179
+                      },
+                      "name": "GenerateClarifyingQuestion",
+                      "uuid": "2f7290d9-67c2-53b0-98a1-6b72711e95be"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 191
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for GenerateClarifyingQuestion",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "e75d89d7-04fd-5266-aea3-adebe3d0d12a",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for ClarifyingQuestion",
+              "config": {},
+              "test": "true",
+              "uuid": "fa8089d5-cd2c-4c1c-9993-1c82d506d887",
+              "destination_block": "ff0a64e3-3215-58f1-a478-4ca4356494ec",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for GenerateClarifyingQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "26a8a4e8-2574-411b-8a1c-7e21d6b72ea2",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 179
+                      },
+                      "name": "GenerateClarifyingQuestion",
+                      "uuid": "2f7290d9-67c2-53b0-98a1-6b72711e95be"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 192
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.OpenAI.ConnectAssistant",
+          "config": {
+            "type": "connect_assistant",
+            "config": {}
+          },
+          "tags": [],
+          "uuid": "93f497f9-f8ad-510f-9a56-30ca13766c73",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "8c4a0190-c2cc-47d2-8b35-853ed32f937b",
+              "destination_block": "876e9c26-b76e-5c6b-8994-a6c9f884eb0c",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 163
+                      },
+                      "name": "GenerateMoreInfo",
+                      "uuid": "a97ee0ae-4a1c-5d3d-ba59-0fb5950ba6a1"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 164
+                      },
+                      "openai_assistant": {},
+                      "type": "openai_assistant"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.AI.AddMessage",
+          "config": {
+            "type": "add_message",
+            "config": {
+              "message": "cadb0fa9-e039-4ee0-9de7-5528d6833464",
+              "connection": "70213bc5-f6b9-4d8b-9d1d-6837f4391d53",
+              "role": "815be24a-deae-4c73-8dad-00cff59945ae"
+            }
+          },
+          "tags": [],
+          "uuid": "876e9c26-b76e-5c6b-8994-a6c9f884eb0c",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "d998fa93-faa0-4c7d-af64-64dbfa560fa7",
+              "destination_block": "5a24ae2a-a3aa-5b69-890e-bbed4b751079",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 163
+                      },
+                      "name": "GenerateMoreInfo",
+                      "uuid": "a97ee0ae-4a1c-5d3d-ba59-0fb5950ba6a1"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 166
+                      },
+                      "openai_add_message": {},
+                      "type": "openai_add_message"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_GenerateMoreInfo_completion",
+          "type": "Io.Turn.AI.ChatCompletion",
+          "config": {
+            "type": "chat_completion",
+            "config": {
+              "connection": "041ac3ca-b5b2-466f-b841-d9692d191f49"
+            }
+          },
+          "tags": [],
+          "uuid": "5a24ae2a-a3aa-5b69-890e-bbed4b751079",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_GenerateMoreInfo_completion",
+              "config": {},
+              "test": "",
+              "uuid": "74dc5b34-a5cb-4294-8254-6289a06dc96e",
+              "destination_block": "0be72aa4-094a-5dbb-ba41-484436d1d184",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 163
+                      },
+                      "name": "GenerateMoreInfo",
+                      "uuid": "a97ee0ae-4a1c-5d3d-ba59-0fb5950ba6a1"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 173
+                      },
+                      "openai_chat_completion": {},
+                      "type": "openai_chat_completion"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_GenerateMoreInfo",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "0be72aa4-094a-5dbb-ba41-484436d1d184",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_GenerateMoreInfo_completion.response",
+              "config": {},
+              "test": "",
+              "uuid": "0806ee0e-05d3-45ea-8a9a-2f4704564bdb",
+              "destination_block": "e5884427-58a6-5ce4-a57d-1219a580d627",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 163
+                      },
+                      "name": "GenerateMoreInfo",
+                      "uuid": "a97ee0ae-4a1c-5d3d-ba59-0fb5950ba6a1"
+                    },
+                    "card_item": {
+                      "expression": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 174
+                      },
+                      "type": "expression"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Generate_More",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_GenerateMoreInfo"
+          },
+          "tags": [],
+          "uuid": "e5884427-58a6-5ce4-a57d-1219a580d627",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "Generate_More",
+              "config": {},
+              "test": "",
+              "uuid": "cb482a3d-dafc-4c6e-b49d-27f096e8c82d",
+              "destination_block": "759460f9-3d67-5553-b4e5-e87b4dda725e",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 163
+                      },
+                      "name": "GenerateMoreInfo",
+                      "uuid": "a97ee0ae-4a1c-5d3d-ba59-0fb5950ba6a1"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 175
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for GenerateMoreInfo",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "759460f9-3d67-5553-b4e5-e87b4dda725e",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for MoreInfo",
+              "config": {},
+              "test": "true",
+              "uuid": "0106492a-1d16-4788-924b-1dcd22d2d4e6",
+              "destination_block": "bdc7b6a0-05e9-57ca-8c67-1f30e7b1b1fe",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for GenerateMoreInfo",
+              "config": {},
+              "test": "",
+              "uuid": "4d0a661e-b125-435b-9697-ea759e0b8b4b",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 163
+                      },
+                      "name": "GenerateMoreInfo",
+                      "uuid": "a97ee0ae-4a1c-5d3d-ba59-0fb5950ba6a1"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 176
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.OpenAI.ConnectAssistant",
+          "config": {
+            "type": "connect_assistant",
+            "config": {}
+          },
+          "tags": [],
+          "uuid": "2e1e5a5c-f90b-5cce-b4c5-5af4a4734c8d",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "df03cf87-f7f0-4f87-91b2-ec7e248ca1f9",
+              "destination_block": "ee84fdf3-6ae8-54b9-99e0-79aa18ed5437",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 147
+                      },
+                      "name": "GenerateWrapUp",
+                      "uuid": "67042251-1265-5edc-89be-ef0d36477345"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 148
+                      },
+                      "openai_assistant": {},
+                      "type": "openai_assistant"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.AI.AddMessage",
+          "config": {
+            "type": "add_message",
+            "config": {
+              "message": "13469dac-886a-477a-a4ad-42e07be2b468",
+              "connection": "f38eb0a4-cf51-4663-84da-75934a615394",
+              "role": "dcca6ff7-8aff-458f-b7c2-4a6509ab4a20"
+            }
+          },
+          "tags": [],
+          "uuid": "ee84fdf3-6ae8-54b9-99e0-79aa18ed5437",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "dcf5ea8a-1f14-4e95-8259-02ab24d60e78",
+              "destination_block": "e3a85af2-cd02-5140-82d1-b1ea02e0ead7",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 147
+                      },
+                      "name": "GenerateWrapUp",
+                      "uuid": "67042251-1265-5edc-89be-ef0d36477345"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 150
+                      },
+                      "openai_add_message": {},
+                      "type": "openai_add_message"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_GenerateWrapUp_completion",
+          "type": "Io.Turn.AI.ChatCompletion",
+          "config": {
+            "type": "chat_completion",
+            "config": {
+              "connection": "9519ccfc-5e77-417e-89c5-b0c23638e9d4"
+            }
+          },
+          "tags": [],
+          "uuid": "e3a85af2-cd02-5140-82d1-b1ea02e0ead7",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_GenerateWrapUp_completion",
+              "config": {},
+              "test": "",
+              "uuid": "eb3c248b-eff6-44e8-ac17-f7774e172ae4",
+              "destination_block": "2e161f46-dc10-529b-9ab3-b9837ef0d0f2",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 147
+                      },
+                      "name": "GenerateWrapUp",
+                      "uuid": "67042251-1265-5edc-89be-ef0d36477345"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 157
+                      },
+                      "openai_chat_completion": {},
+                      "type": "openai_chat_completion"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_GenerateWrapUp",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "2e161f46-dc10-529b-9ab3-b9837ef0d0f2",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_GenerateWrapUp_completion.response",
+              "config": {},
+              "test": "",
+              "uuid": "6006bd23-15dc-45f8-bbbf-49e301472e32",
+              "destination_block": "417d96e1-3f1d-53dc-bbfe-3ae999de75d0",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 147
+                      },
+                      "name": "GenerateWrapUp",
+                      "uuid": "67042251-1265-5edc-89be-ef0d36477345"
+                    },
+                    "card_item": {
+                      "expression": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 158
+                      },
+                      "type": "expression"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Generate_Wrap_up",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_GenerateWrapUp"
+          },
+          "tags": [],
+          "uuid": "417d96e1-3f1d-53dc-bbfe-3ae999de75d0",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "Generate_Wrap_up",
+              "config": {},
+              "test": "",
+              "uuid": "949d244b-0ec0-4c16-b9fa-2fceebba0ba7",
+              "destination_block": "3ee6c526-1d73-51fa-8a6f-aff2eda5bf3e",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 147
+                      },
+                      "name": "GenerateWrapUp",
+                      "uuid": "67042251-1265-5edc-89be-ef0d36477345"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 159
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for GenerateWrapUp",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "3ee6c526-1d73-51fa-8a6f-aff2eda5bf3e",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for Next",
+              "config": {},
+              "test": "true",
+              "uuid": "67d40069-4b31-4b63-add4-d7234a3c9080",
+              "destination_block": "8faa92e8-6fe9-5a1e-8ee9-fb6eb4bc56ca",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for GenerateWrapUp",
+              "config": {},
+              "test": "",
+              "uuid": "e2f18946-225a-4afa-8fd6-99bdc99b5695",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 147
+                      },
+                      "name": "GenerateWrapUp",
+                      "uuid": "67042251-1265-5edc-89be-ef0d36477345"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 160
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.OpenAI.ConnectAssistant",
+          "config": {
+            "type": "connect_assistant",
+            "config": {}
+          },
+          "tags": [],
+          "uuid": "ddab0500-240a-594f-aa1d-d774eb3e3997",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "613e55de-0779-443c-9d3d-34885a586916",
+              "destination_block": "70931dfe-506d-53d6-9e5e-796b08db1288",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 120
+                      },
+                      "name": "ClassifyResponse",
+                      "uuid": "40e1121c-fdf6-5308-8e3e-4d88be8c0b88"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 121
+                      },
+                      "openai_assistant": {},
+                      "type": "openai_assistant"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.AI.AddMessage",
+          "config": {
+            "type": "add_message",
+            "config": {
+              "message": "5b3af6e3-864a-4d32-b314-b8b7fabcb073",
+              "connection": "f55016c6-9c29-4a29-b876-46437166b1c0",
+              "role": "cc89437e-dc54-4373-994a-7327123582ca"
+            }
+          },
+          "tags": [],
+          "uuid": "70931dfe-506d-53d6-9e5e-796b08db1288",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "43b717be-b7d7-4e50-8cff-497944acf18a",
+              "destination_block": "7a2c1720-24d4-5e2a-a3df-5edebf673f32",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 120
+                      },
+                      "name": "ClassifyResponse",
+                      "uuid": "40e1121c-fdf6-5308-8e3e-4d88be8c0b88"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 122
+                      },
+                      "openai_add_message": {},
+                      "type": "openai_add_message"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.AI.AddMessage",
+          "config": {
+            "type": "add_message",
+            "config": {
+              "message": "83c5d81e-4a04-46de-817e-e0ee7b1d3bd6",
+              "connection": "c87d321a-51c9-47c4-a0e7-0f9e36699b93",
+              "role": "5db5ce07-420b-4b49-a06b-cd31f5cde40f"
+            }
+          },
+          "tags": [],
+          "uuid": "7a2c1720-24d4-5e2a-a3df-5edebf673f32",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "b334829b-13f0-4315-9960-1903d5a3a7b2",
+              "destination_block": "86b2f6ba-ebe3-5654-a1bd-f595a40eddaf",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 120
+                      },
+                      "name": "ClassifyResponse",
+                      "uuid": "40e1121c-fdf6-5308-8e3e-4d88be8c0b88"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 124
+                      },
+                      "openai_add_message": {},
+                      "type": "openai_add_message"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.AI.AddMessages",
+          "config": {
+            "type": "add_messages",
+            "config": {
+              "messages": "b526b820-38a7-493b-9934-9a3be19e1a4b",
+              "connection": "6b6242df-35b5-4e3f-88a8-4276a3a7dd9a",
+              "role": "1931b462-7e99-4d71-ae54-3768215701c4"
+            }
+          },
+          "tags": [],
+          "uuid": "86b2f6ba-ebe3-5654-a1bd-f595a40eddaf",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "19f42e04-a54d-432e-a53a-d53b05b4839b",
+              "destination_block": "58aa7fd6-7e09-513e-85fa-cac4f60ff17d",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 120
+                      },
+                      "name": "ClassifyResponse",
+                      "uuid": "40e1121c-fdf6-5308-8e3e-4d88be8c0b88"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 131
+                      },
+                      "openai_add_messages": {},
+                      "type": "openai_add_messages"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_ClassifyResponse_completion",
+          "type": "Io.Turn.AI.ChatCompletion",
+          "config": {
+            "type": "chat_completion",
+            "config": {
+              "connection": "1ac12f05-b7d2-4305-87da-0c5875a0563b"
+            }
+          },
+          "tags": [],
+          "uuid": "58aa7fd6-7e09-513e-85fa-cac4f60ff17d",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_ClassifyResponse_completion",
+              "config": {},
+              "test": "",
+              "uuid": "4b375300-437c-4918-89e4-dd6b1d08650f",
+              "destination_block": "80849b3f-3da4-5365-ad7c-b0f7b4a71a13",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 120
+                      },
+                      "name": "ClassifyResponse",
+                      "uuid": "40e1121c-fdf6-5308-8e3e-4d88be8c0b88"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 139
+                      },
+                      "openai_chat_completion": {},
+                      "type": "openai_chat_completion"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_ClassifyResponse",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "80849b3f-3da4-5365-ad7c-b0f7b4a71a13",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_ClassifyResponse_completion.response",
+              "config": {},
+              "test": "",
+              "uuid": "f97d46a2-b7cc-44fa-9717-37ff1b00fb60",
+              "destination_block": "71b247c7-c328-5749-b61e-f38cf9c21b5f",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 120
+                      },
+                      "name": "ClassifyResponse",
+                      "uuid": "40e1121c-fdf6-5308-8e3e-4d88be8c0b88"
+                    },
+                    "card_item": {
+                      "expression": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 140
+                      },
+                      "type": "expression"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Classify_response",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_ClassifyResponse"
+          },
+          "tags": [],
+          "uuid": "71b247c7-c328-5749-b61e-f38cf9c21b5f",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "Classify_response",
+              "config": {},
+              "test": "",
+              "uuid": "426951af-4b7b-4b50-93f2-e4f29ba9580c",
+              "destination_block": "28bdf4fa-22d8-59c8-bd13-7df62c2bb2ef",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 120
+                      },
+                      "name": "ClassifyResponse",
+                      "uuid": "40e1121c-fdf6-5308-8e3e-4d88be8c0b88"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 141
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for ClassifyResponse",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "28bdf4fa-22d8-59c8-bd13-7df62c2bb2ef",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for GenerateWrapUp",
+              "config": {},
+              "test": "ref_ClassifyResponse == 1",
+              "uuid": "356a4944-1702-476f-8e09-abf51e65b3b0",
+              "destination_block": "2e1e5a5c-f90b-5cce-b4c5-5af4a4734c8d",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": false,
+              "name": "Exit for GenerateMoreInfo",
+              "config": {},
+              "test": "ref_ClassifyResponse == 2",
+              "uuid": "c77e69a2-973b-4674-a9bb-a86a85ff9c72",
+              "destination_block": "93f497f9-f8ad-510f-9a56-30ca13766c73",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": false,
+              "name": "Exit for GenerateClarifyingQuestion",
+              "config": {},
+              "test": "true",
+              "uuid": "04c82fd0-65e9-4959-acf5-275bfaf4ac38",
+              "destination_block": "05b373ac-3713-5ab9-a814-1ca676a404b7",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for ClassifyResponse",
+              "config": {},
+              "test": "",
+              "uuid": "ccea1957-c38d-4555-be7c-833e5c98e943",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 120
+                      },
+                      "name": "ClassifyResponse",
+                      "uuid": "40e1121c-fdf6-5308-8e3e-4d88be8c0b88"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 142
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_Reaction",
+          "type": "MobilePrimitives.OpenResponse",
+          "config": {
+            "prompt": "a0de48dc-aba1-4ec9-bebf-ee43dae30349",
+            "max_response_characters": null
+          },
+          "tags": [],
+          "uuid": "15708b88-f616-5f01-a402-82d4332e4370",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_Reaction",
+              "config": {},
+              "test": "",
+              "uuid": "99085e30-f0c5-44e8-8a7f-f375bc7fcd94",
+              "destination_block": "2597ebb7-82df-5416-9faa-f1b2d7509283",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 255
+                      },
+                      "name": "Reaction",
+                      "uuid": "89a16700-c5ef-5860-83cc-34e410afb41c"
+                    },
+                    "card_item": {
+                      "ask": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 256
+                      },
+                      "type": "ask"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "RecommendationReaction",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_Reaction"
+          },
+          "tags": [],
+          "uuid": "2597ebb7-82df-5416-9faa-f1b2d7509283",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "RecommendationReaction",
+              "config": {},
+              "test": "",
+              "uuid": "44ea27c8-abef-4df1-bcbe-6186ed3686e3",
+              "destination_block": "8af1694e-e3c8-5121-aad4-9bbda86b0580",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 255
+                      },
+                      "name": "Reaction",
+                      "uuid": "89a16700-c5ef-5860-83cc-34e410afb41c"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 257
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for Reaction",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "8af1694e-e3c8-5121-aad4-9bbda86b0580",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for ClassifyResponse",
+              "config": {},
+              "test": "true",
+              "uuid": "75a02c16-ca94-4d68-a617-efa30da5e127",
+              "destination_block": "ddab0500-240a-594f-aa1d-d774eb3e3997",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for Reaction",
+              "config": {},
+              "test": "",
+              "uuid": "5b97d525-3d26-4af7-bcef-50dabfc44f3f",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 255
+                      },
+                      "name": "Reaction",
+                      "uuid": "89a16700-c5ef-5860-83cc-34e410afb41c"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 258
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.OpenAI.ConnectAssistant",
+          "config": {
+            "type": "connect_assistant",
+            "config": {}
+          },
+          "tags": [],
+          "uuid": "8a1248b6-7dac-5094-9fd9-f13ef77d7259",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "78d3be5a-cadd-4c0f-95c3-969b7d00e7d5",
+              "destination_block": "8c92702e-d525-566e-bd07-e4713d19f4ab",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 104
+                      },
+                      "name": "Recommendation",
+                      "uuid": "f5ca2bce-244c-5c88-96b8-3cca11ae9c2f"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 105
+                      },
+                      "openai_assistant": {},
+                      "type": "openai_assistant"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.AI.AddMessage",
+          "config": {
+            "type": "add_message",
+            "config": {
+              "message": "50859989-5a23-4ed6-8bef-8e8d6323ed3e",
+              "connection": "58b4d037-fa85-4d39-b645-0703304599a9",
+              "role": "a48f1256-29e2-4feb-a9ce-586cb0d4c436"
+            }
+          },
+          "tags": [],
+          "uuid": "8c92702e-d525-566e-bd07-e4713d19f4ab",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "42417106-e081-4856-acd9-0a20339c914d",
+              "destination_block": "39322943-096f-5a8e-b0d9-5b7c893bac4c",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 104
+                      },
+                      "name": "Recommendation",
+                      "uuid": "f5ca2bce-244c-5c88-96b8-3cca11ae9c2f"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 107
+                      },
+                      "openai_add_message": {},
+                      "type": "openai_add_message"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_Recommendation_completion",
+          "type": "Io.Turn.AI.ChatCompletion",
+          "config": {
+            "type": "chat_completion",
+            "config": {
+              "connection": "99e5aa1c-5abd-4cf4-b1e8-197a57a8b101"
+            }
+          },
+          "tags": [],
+          "uuid": "39322943-096f-5a8e-b0d9-5b7c893bac4c",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_Recommendation_completion",
+              "config": {},
+              "test": "",
+              "uuid": "b85c076a-04a7-4b5c-a95c-9204396f0a96",
+              "destination_block": "8f31c910-d6bb-5464-8385-519251c3c4fb",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 104
+                      },
+                      "name": "Recommendation",
+                      "uuid": "f5ca2bce-244c-5c88-96b8-3cca11ae9c2f"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 114
+                      },
+                      "openai_chat_completion": {},
+                      "type": "openai_chat_completion"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_Recommendation",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "8f31c910-d6bb-5464-8385-519251c3c4fb",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_Recommendation_completion.response",
+              "config": {},
+              "test": "",
+              "uuid": "fa9ff64b-b740-44ea-b56f-fc2d19a2980f",
+              "destination_block": "e7dfe128-a333-5379-80e0-d4475f95f251",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 104
+                      },
+                      "name": "Recommendation",
+                      "uuid": "f5ca2bce-244c-5c88-96b8-3cca11ae9c2f"
+                    },
+                    "card_item": {
+                      "expression": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 115
+                      },
+                      "type": "expression"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Recommendation",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_Recommendation"
+          },
+          "tags": [],
+          "uuid": "e7dfe128-a333-5379-80e0-d4475f95f251",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "Recommendation",
+              "config": {},
+              "test": "",
+              "uuid": "11e71765-a32b-4868-9ce4-988a67bb1dd2",
+              "destination_block": "830b999d-374c-546e-896e-ea1a6ce7a396",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 104
+                      },
+                      "name": "Recommendation",
+                      "uuid": "f5ca2bce-244c-5c88-96b8-3cca11ae9c2f"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 116
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for Recommendation",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "830b999d-374c-546e-896e-ea1a6ce7a396",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for Reaction",
+              "config": {},
+              "test": "true",
+              "uuid": "69e0686c-2b54-4899-bb4e-0a14f775b016",
+              "destination_block": "15708b88-f616-5f01-a402-82d4332e4370",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for Recommendation",
+              "config": {},
+              "test": "",
+              "uuid": "07cd1383-8b34-4be8-be0e-812878c70a5c",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 104
+                      },
+                      "name": "Recommendation",
+                      "uuid": "f5ca2bce-244c-5c88-96b8-3cca11ae9c2f"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 117
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_InitialQuestion",
+          "type": "MobilePrimitives.OpenResponse",
+          "config": {
+            "prompt": "424100aa-0e50-414f-a6a9-8caa2d37f65f",
+            "max_response_characters": null
+          },
+          "tags": [],
+          "uuid": "e032d17c-9e5b-5c9a-9455-d6e2aee287d7",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_InitialQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "925c5d4f-bb77-4f4d-b773-54b754a49838",
+              "destination_block": "e4642a0c-f459-574b-9827-31b04407e3e9",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 209
+                      },
+                      "name": "InitialQuestion",
+                      "uuid": "dfdf50cc-5419-56a6-8814-796bf04c4d13"
+                    },
+                    "card_item": {
+                      "ask": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 210
+                      },
+                      "type": "ask"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "InitialQuestionResponse",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_InitialQuestion"
+          },
+          "tags": [],
+          "uuid": "e4642a0c-f459-574b-9827-31b04407e3e9",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "InitialQuestionResponse",
+              "config": {},
+              "test": "",
+              "uuid": "75a4b719-e3e8-412c-bbf4-190bcc6b7775",
+              "destination_block": "f94b8379-f065-59aa-a272-8838b22592cc",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 209
+                      },
+                      "name": "InitialQuestion",
+                      "uuid": "dfdf50cc-5419-56a6-8814-796bf04c4d13"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 211
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for InitialQuestion",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "f94b8379-f065-59aa-a272-8838b22592cc",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for GenerateContextQuestion",
+              "config": {},
+              "test": "true",
+              "uuid": "8aca4671-109e-4d47-b1f3-d35dc3fa2cac",
+              "destination_block": "e1965952-8eb8-51e9-b575-b01d7391ac6c",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for InitialQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "23319dec-bdbe-4add-86ed-ccc9a6b76fb9",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 209
+                      },
+                      "name": "InitialQuestion",
+                      "uuid": "dfdf50cc-5419-56a6-8814-796bf04c4d13"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 212
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.OpenAI.ConnectAssistant",
+          "config": {
+            "type": "connect_assistant",
+            "config": {}
+          },
+          "tags": [],
+          "uuid": "0e54f8ea-d8bc-5d2c-b28f-fb0a889da9c4",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "a1f700b2-707c-46e1-8906-9d4ff7d9c2b4",
+              "destination_block": "d7dbd447-9c17-5954-bbe3-ae392340a1e2",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 82
+                      },
+                      "name": "GenerateInitialQuestion",
+                      "uuid": "353957ad-1e5a-5ee6-9642-756e90f869e8"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 83
+                      },
+                      "openai_assistant": {},
+                      "type": "openai_assistant"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.AI.AddMessage",
+          "config": {
+            "type": "add_message",
+            "config": {
+              "message": "f8db09e7-d66b-487c-b8e9-e987d8215fc3",
+              "connection": "b95e4c1f-2e81-4dbe-bfe0-5330ea775181",
+              "role": "56bdd3ca-64c4-47a3-bad0-6f76a6a74601"
+            }
+          },
+          "tags": [],
+          "uuid": "d7dbd447-9c17-5954-bbe3-ae392340a1e2",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "d10c8a87-f5f1-4728-bff0-e37e31b2601e",
+              "destination_block": "5460718f-df40-51a3-9fde-009f01db6ec5",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 82
+                      },
+                      "name": "GenerateInitialQuestion",
+                      "uuid": "353957ad-1e5a-5ee6-9642-756e90f869e8"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 85
+                      },
+                      "openai_add_message": {},
+                      "type": "openai_add_message"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_GenerateInitialQuestion_completion",
+          "type": "Io.Turn.AI.ChatCompletion",
+          "config": {
+            "type": "chat_completion",
+            "config": {
+              "connection": "82ddc4f7-7cc2-42c8-b185-6578c38b4eff"
+            }
+          },
+          "tags": [],
+          "uuid": "5460718f-df40-51a3-9fde-009f01db6ec5",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_GenerateInitialQuestion_completion",
+              "config": {},
+              "test": "",
+              "uuid": "5050a4fc-676b-4193-bfb3-58d7d09c20ba",
+              "destination_block": "44e21b10-7fb3-5d03-beb6-ea0424b8e54a",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 82
+                      },
+                      "name": "GenerateInitialQuestion",
+                      "uuid": "353957ad-1e5a-5ee6-9642-756e90f869e8"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 92
+                      },
+                      "openai_chat_completion": {},
+                      "type": "openai_chat_completion"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_GenerateInitialQuestion",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "44e21b10-7fb3-5d03-beb6-ea0424b8e54a",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_GenerateInitialQuestion_completion.response",
+              "config": {},
+              "test": "",
+              "uuid": "e2866ab2-1970-425d-9e36-8b7e83963a6e",
+              "destination_block": "8d513fc1-c098-5b8c-8506-1674a8bcbbeb",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 82
+                      },
+                      "name": "GenerateInitialQuestion",
+                      "uuid": "353957ad-1e5a-5ee6-9642-756e90f869e8"
+                    },
+                    "card_item": {
+                      "expression": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 93
+                      },
+                      "type": "expression"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "InitialQuestion",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_GenerateInitialQuestion"
+          },
+          "tags": [],
+          "uuid": "8d513fc1-c098-5b8c-8506-1674a8bcbbeb",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "InitialQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "65c508f0-6ada-4c3e-a4da-c396180a8fd8",
+              "destination_block": "4850964b-925a-5add-9935-ddc8d4fb6267",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 82
+                      },
+                      "name": "GenerateInitialQuestion",
+                      "uuid": "353957ad-1e5a-5ee6-9642-756e90f869e8"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 94
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for GenerateInitialQuestion",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "4850964b-925a-5add-9935-ddc8d4fb6267",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for InitialQuestion",
+              "config": {},
+              "test": "true",
+              "uuid": "adb44af0-63b9-4eec-9eb5-1e5ac9739d4e",
+              "destination_block": "e032d17c-9e5b-5c9a-9455-d6e2aee287d7",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for GenerateInitialQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "99201c47-d6ab-463f-8395-33372540fdb6",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 82
+                      },
+                      "name": "GenerateInitialQuestion",
+                      "uuid": "353957ad-1e5a-5ee6-9642-756e90f869e8"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 95
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "retry_next_text",
+          "type": "MobilePrimitives.Message",
+          "config": {
+            "prompt": "b9e4f743-61d4-4b4f-b4f8-bd389aea866d"
+          },
+          "tags": [],
+          "uuid": "9186683b-fb78-59c0-9eb9-b684bf87c175",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "retry_next_text",
+              "config": {},
+              "test": "",
+              "uuid": "fbcf3c9b-e68d-4d4c-801b-a781653e2f93",
+              "destination_block": "d4528947-cd3d-55c4-bbc5-05a07f58244b",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 41
+                      },
+                      "name": "RetryNext",
+                      "uuid": "9954c52f-1f93-53bd-9dba-55391bca646e"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 42
+                      },
+                      "text": {},
+                      "type": "text"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for RetryNext",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "d4528947-cd3d-55c4-bbc5-05a07f58244b",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for Next",
+              "config": {},
+              "test": "true",
+              "uuid": "2edfdc8f-4cad-4ab8-98be-8f1858d7c2f7",
+              "destination_block": "8faa92e8-6fe9-5a1e-8ee9-fb6eb4bc56ca",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for RetryNext",
+              "config": {},
+              "test": "",
+              "uuid": "96656aa3-7a87-48d1-adc4-6f3fa54b2ef7",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 41
+                      },
+                      "name": "RetryNext",
+                      "uuid": "9954c52f-1f93-53bd-9dba-55391bca646e"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 45
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "parent_menu_run_stack",
+          "type": "Core.RunFlow",
+          "config": {
+            "flow_id": "102c308b-e12f-49ec-872b-dfc78ea57a40"
+          },
+          "tags": [],
+          "uuid": "2079fca7-ae74-5d92-b960-00f604da96c9",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "parent_menu_run_stack",
+              "config": {},
+              "test": "",
+              "uuid": "8a87b45f-74c9-42ac-b26a-0efc8ed21acc",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 37
+                      },
+                      "name": "ParentMenu",
+                      "uuid": "171c78e6-c801-59cf-be97-9661b3e95b27"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 38
+                      },
+                      "run_stack": {},
+                      "type": "run_stack"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "crisis_management_run_stack",
+          "type": "Core.RunFlow",
+          "config": {
+            "flow_id": "8ff0a784-3773-4e8e-b7b6-aaefbf864962"
+          },
+          "tags": [],
+          "uuid": "31cb8ff6-05ef-5d19-a836-8c9a10df15e3",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "crisis_management_run_stack",
+              "config": {},
+              "test": "",
+              "uuid": "7ee56b3b-5059-4489-832b-4ea599494fe9",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 205
+                      },
+                      "name": "Crisis_management",
+                      "uuid": "b4eb6686-41e5-5fa8-ad4f-5f77c734995b"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 206
+                      },
+                      "run_stack": {},
+                      "type": "run_stack"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_TalkingPoints",
+          "type": "MobilePrimitives.SelectOneResponse",
+          "config": {
+            "prompt": "0b1d91b1-c616-46af-8bc0-0b9d137a6775",
+            "choices": [
+              {
+                "name": "Conducting ABCs \ud83d\udd0d",
+                "prompt": "05c193ae-3b67-4503-8454-30ccf00583c6",
+                "test": "block.response = \"Conducting ABCs \ud83d\udd0d\""
+              },
+              {
+                "name": "Identify Triggers \ud83d\udea6",
+                "prompt": "77fbe8fd-b85f-4a5c-bb5e-f31cbae40ed6",
+                "test": "block.response = \"Identify Triggers \ud83d\udea6\""
+              },
+              {
+                "name": "Set Up Observations \ud83d\udc40",
+                "prompt": "fc7de36c-943d-4555-a43f-dda040f15db1",
+                "test": "block.response = \"Set Up Observations \ud83d\udc40\""
+              },
+              {
+                "name": "Analyse ABC Data \ud83d\udcca",
+                "prompt": "f2a7959f-c68c-4d7e-818d-0fc652d0f4a7",
+                "test": "block.response = \"Analyse ABC Data \ud83d\udcca\""
+              },
+              {
+                "name": "Data-informed Plans \ud83d\udee0\ufe0f",
+                "prompt": "2aa7a008-5f28-42e9-ae89-41821bfb8391",
+                "test": "block.response = \"Data-informed Plans \ud83d\udee0\ufe0f\""
+              },
+              {
+                "name": "Other \ud83d\udd04",
+                "prompt": "299cb90a-d885-4ee9-bb00-46d85fa60025",
+                "test": "block.response = \"Other \ud83d\udd04\""
+              }
+            ]
+          },
+          "tags": [],
+          "uuid": "8b714228-1bec-5a6b-b6d9-be7208cf3ad8",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_TalkingPoints",
+              "config": {},
+              "test": "",
+              "uuid": "beeaf25f-325f-4f56-b6d1-383c0ea1f065",
+              "destination_block": "706ac53f-c36d-5a29-af9d-2fd4a5fd9321",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 48
+                      },
+                      "name": "TalkingPoints",
+                      "uuid": "a6ffdb4d-819b-5148-9c5d-056c35da54db"
+                    },
+                    "card_item": {
+                      "list_block": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 49
+                      },
+                      "type": "list_block"
+                    },
+                    "index": 0,
+                    "list_metadata": {
+                      "footer": "Tap a button below to continue",
+                      "header": "Welcome @contact.name! \ud83c\udf89"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "TalkingPoint",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_TalkingPoints"
+          },
+          "tags": [],
+          "uuid": "706ac53f-c36d-5a29-af9d-2fd4a5fd9321",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "TalkingPoint",
+              "config": {},
+              "test": "",
+              "uuid": "93309912-fbee-4ea6-bae4-928b1a880af1",
+              "destination_block": "16162c85-6346-5a83-afff-bafeb8487aa5",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 48
+                      },
+                      "name": "TalkingPoints",
+                      "uuid": "a6ffdb4d-819b-5148-9c5d-056c35da54db"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 65
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for TalkingPoints",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "16162c85-6346-5a83-afff-bafeb8487aa5",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for GenerateInitialQuestion",
+              "config": {},
+              "test": "ref_TalkingPoints == \"Conducting ABCs \ud83d\udd0d\"",
+              "uuid": "030c47d1-fe68-44a0-8e90-2825012ee094",
+              "destination_block": "0e54f8ea-d8bc-5d2c-b28f-fb0a889da9c4",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": false,
+              "name": "Exit for GenerateInitialQuestion",
+              "config": {},
+              "test": "ref_TalkingPoints == \"Identify Triggers \ud83d\udea6\"",
+              "uuid": "62218c79-540f-46c8-8e48-132cb760769f",
+              "destination_block": "0e54f8ea-d8bc-5d2c-b28f-fb0a889da9c4",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": false,
+              "name": "Exit for GenerateInitialQuestion",
+              "config": {},
+              "test": "ref_TalkingPoints == \"Set Up Observations \ud83d\udc40\"",
+              "uuid": "c3fa2dae-6956-44f9-8501-c23ca4e61b69",
+              "destination_block": "0e54f8ea-d8bc-5d2c-b28f-fb0a889da9c4",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": false,
+              "name": "Exit for GenerateInitialQuestion",
+              "config": {},
+              "test": "ref_TalkingPoints == \"Analyse ABC Data \ud83d\udcca\"",
+              "uuid": "3d59c85f-f1d6-4e96-b360-c3efadea75c7",
+              "destination_block": "0e54f8ea-d8bc-5d2c-b28f-fb0a889da9c4",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": false,
+              "name": "Exit for GenerateInitialQuestion",
+              "config": {},
+              "test": "ref_TalkingPoints == \"Data-informed Plans \ud83d\udee0\ufe0f\"",
+              "uuid": "79957f9e-0abe-40ed-b2a6-2bd2869df7e0",
+              "destination_block": "0e54f8ea-d8bc-5d2c-b28f-fb0a889da9c4",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": false,
+              "name": "Exit for GenerateInitialQuestion",
+              "config": {},
+              "test": "ref_TalkingPoints == \"Other \ud83d\udd04\"",
+              "uuid": "d8589e61-a9fb-4d69-b712-b6d830888b35",
+              "destination_block": "0e54f8ea-d8bc-5d2c-b28f-fb0a889da9c4",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": false,
+              "name": "Exit for RetryTopic",
+              "config": {},
+              "test": "true",
+              "uuid": "0b8cb84f-d2b0-4170-a1ea-9cae764fc9bb",
+              "destination_block": "d5f99271-3cae-55cf-bb08-95cb98ab149c",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for TalkingPoints",
+              "config": {},
+              "test": "",
+              "uuid": "240b3d51-5e7f-491b-ac05-41442db98e3f",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 48
+                      },
+                      "name": "TalkingPoints",
+                      "uuid": "a6ffdb4d-819b-5148-9c5d-056c35da54db"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 66
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.OpenAI.ConnectAssistant",
+          "config": {
+            "type": "connect_assistant",
+            "config": {}
+          },
+          "tags": [],
+          "uuid": "00c53577-6d2b-5df7-a6d4-e711dba32826",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "20f44584-f235-46aa-9f2e-57fcb759c98c",
+              "destination_block": "a3b28103-7d75-50b1-9e08-73afc99c8f63",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 6
+                      },
+                      "name": "WelcomeMessage",
+                      "uuid": "9888575c-a4d0-5dc4-93ed-44e7a3260659"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 7
+                      },
+                      "openai_assistant": {},
+                      "type": "openai_assistant"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ai",
+          "type": "Io.Turn.AI.AddMessage",
+          "config": {
+            "type": "add_message",
+            "config": {
+              "message": "30f502c9-7203-4669-9507-8edaf697e8db",
+              "connection": "abe3e499-1780-4a1e-ad37-73892808853c",
+              "role": "b76d4756-be45-4bb3-b579-1aa72b661db6"
+            }
+          },
+          "tags": [],
+          "uuid": "a3b28103-7d75-50b1-9e08-73afc99c8f63",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ai",
+              "config": {},
+              "test": "",
+              "uuid": "a2f6f166-8922-48e6-8313-cffe2051e283",
+              "destination_block": "da404dfd-12b4-5c00-87c5-5c0becfb5773",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 6
+                      },
+                      "name": "WelcomeMessage",
+                      "uuid": "9888575c-a4d0-5dc4-93ed-44e7a3260659"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 9
+                      },
+                      "openai_add_message": {},
+                      "type": "openai_add_message"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_WelcomeMessage_completion",
+          "type": "Io.Turn.AI.ChatCompletion",
+          "config": {
+            "type": "chat_completion",
+            "config": {
+              "connection": "1d5611f0-243f-4fb4-9622-1b969c9e85b0"
+            }
+          },
+          "tags": [],
+          "uuid": "da404dfd-12b4-5c00-87c5-5c0becfb5773",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_WelcomeMessage_completion",
+              "config": {},
+              "test": "",
+              "uuid": "4e446e2c-876a-4860-8e75-63b68ee570f2",
+              "destination_block": "3b542704-3580-507b-9558-f2d5683a8bbb",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 6
+                      },
+                      "name": "WelcomeMessage",
+                      "uuid": "9888575c-a4d0-5dc4-93ed-44e7a3260659"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 16
+                      },
+                      "openai_chat_completion": {},
+                      "type": "openai_chat_completion"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_WelcomeMessage",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "3b542704-3580-507b-9558-f2d5683a8bbb",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_WelcomeMessage_completion.response",
+              "config": {},
+              "test": "",
+              "uuid": "f644f2ca-a2a7-41b8-a0cc-09afe28e78d4",
+              "destination_block": "12b4eae7-71e3-53a1-9286-28f91a810ca5",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 6
+                      },
+                      "name": "WelcomeMessage",
+                      "uuid": "9888575c-a4d0-5dc4-93ed-44e7a3260659"
+                    },
+                    "card_item": {
+                      "expression": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 17
+                      },
+                      "type": "expression"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Weclome",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_WelcomeMessage"
+          },
+          "tags": [],
+          "uuid": "12b4eae7-71e3-53a1-9286-28f91a810ca5",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "Weclome",
+              "config": {},
+              "test": "",
+              "uuid": "7fd5f365-c378-427b-b98c-a2e3a93df6b9",
+              "destination_block": "26fa2d75-3c91-5300-8874-ff6db4b29cb3",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 6
+                      },
+                      "name": "WelcomeMessage",
+                      "uuid": "9888575c-a4d0-5dc4-93ed-44e7a3260659"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 18
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for WelcomeMessage",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "26fa2d75-3c91-5300-8874-ff6db4b29cb3",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for TalkingPoints",
+              "config": {},
+              "test": "true",
+              "uuid": "7c7a83be-fb31-455b-917f-a222654e3583",
+              "destination_block": "8b714228-1bec-5a6b-b6d9-be7208cf3ad8",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for WelcomeMessage",
+              "config": {},
+              "test": "",
+              "uuid": "d93eb438-b500-424e-8cb9-fda4032e0d93",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 6
+                      },
+                      "name": "WelcomeMessage",
+                      "uuid": "9888575c-a4d0-5dc4-93ed-44e7a3260659"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 19
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "retry_topic_text",
+          "type": "MobilePrimitives.Message",
+          "config": {
+            "prompt": "08bf4acc-fcaf-4229-b509-867cc67ab3e0"
+          },
+          "tags": [],
+          "uuid": "d5f99271-3cae-55cf-bb08-95cb98ab149c",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "retry_topic_text",
+              "config": {},
+              "test": "",
+              "uuid": "54b52c55-a817-4f06-a7c0-2bc63529f1ff",
+              "destination_block": "17abf02e-627b-51b4-ba75-492036d1fac2",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 75
+                      },
+                      "name": "RetryTopic",
+                      "uuid": "2bff64f1-ef19-553b-b21c-47e85332ff43"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 76
+                      },
+                      "text": {},
+                      "type": "text"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for RetryTopic",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "17abf02e-627b-51b4-ba75-492036d1fac2",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for TalkingPoints",
+              "config": {},
+              "test": "true",
+              "uuid": "a86196bd-292e-4dca-8ada-655d39914319",
+              "destination_block": "8b714228-1bec-5a6b-b6d9-be7208cf3ad8",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for RetryTopic",
+              "config": {},
+              "test": "",
+              "uuid": "4b24bd5e-7492-4229-9de3-de93ae2e5625",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 75
+                      },
+                      "name": "RetryTopic",
+                      "uuid": "2bff64f1-ef19-553b-b21c-47e85332ff43"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 79
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "learn__explore_run_stack",
+          "type": "Core.RunFlow",
+          "config": {
+            "flow_id": "e3f89e1c-f1f9-4d5d-9d66-83a2df6ab754"
+          },
+          "tags": [],
+          "uuid": "32b53f47-e3c9-5195-bea1-40481a7a3424",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "learn__explore_run_stack",
+              "config": {},
+              "test": "",
+              "uuid": "1f9cb37f-fc5a-4386-97c3-af647bef0609",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 201
+                      },
+                      "name": "Learn_Explore",
+                      "uuid": "b8a28b94-3727-5301-9821-bb725d08d1a2"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 202
+                      },
+                      "run_stack": {},
+                      "type": "run_stack"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_FinalQuestion",
+          "type": "MobilePrimitives.OpenResponse",
+          "config": {
+            "prompt": "d23f155d-f416-44ca-a212-90184f36fd69",
+            "max_response_characters": null
+          },
+          "tags": [],
+          "uuid": "2393bb37-d246-577a-a78a-1584a76d4af1",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_FinalQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "e328b192-30a7-4988-9373-2c4896219789",
+              "destination_block": "54216717-ec6c-5d5a-a070-922b40939efc",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 98
+                      },
+                      "name": "FinalQuestion",
+                      "uuid": "6864eed2-7e7e-59ec-924f-a10ae4fe4d77"
+                    },
+                    "card_item": {
+                      "ask": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 99
+                      },
+                      "type": "ask"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "FinalQuestionResponse",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_FinalQuestion"
+          },
+          "tags": [],
+          "uuid": "54216717-ec6c-5d5a-a070-922b40939efc",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "FinalQuestionResponse",
+              "config": {},
+              "test": "",
+              "uuid": "936a8afb-4d3a-4d52-ad38-497ffffccf62",
+              "destination_block": "a3af58d3-4350-530a-b718-04c5d45adfd6",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 98
+                      },
+                      "name": "FinalQuestion",
+                      "uuid": "6864eed2-7e7e-59ec-924f-a10ae4fe4d77"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 100
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for FinalQuestion",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "a3af58d3-4350-530a-b718-04c5d45adfd6",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for Recommendation",
+              "config": {},
+              "test": "true",
+              "uuid": "32488f78-ea48-4de6-8b10-03e60f780d93",
+              "destination_block": "8a1248b6-7dac-5094-9fd9-f13ef77d7259",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for FinalQuestion",
+              "config": {},
+              "test": "",
+              "uuid": "69b0d05f-fff9-4b5f-8b43-cedc6f4f9809",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 98
+                      },
+                      "name": "FinalQuestion",
+                      "uuid": "6864eed2-7e7e-59ec-924f-a10ae4fe4d77"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 101
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "ref_Next",
+          "type": "MobilePrimitives.SelectOneResponse",
+          "config": {
+            "prompt": "a6e6d280-4d25-4177-9eb7-af376cf84a2c",
+            "choices": [
+              {
+                "name": "\tSession Planning \ud83d\udcc5",
+                "prompt": "6905ba97-be73-4cc1-8415-4c31ef9d02bd",
+                "test": "block.response = \"\\tSession Planning \ud83d\udcc5\""
+              },
+              {
+                "name": "Resource Library \ud83d\udcda",
+                "prompt": "2c5677f5-84be-408c-93b1-a145d8b3f62c",
+                "test": "block.response = \"Resource Library \ud83d\udcda\""
+              },
+              {
+                "name": "Back to menu \u21a9\ufe0f",
+                "prompt": "9dbe0af3-4695-40e3-b787-78f94d998008",
+                "test": "block.response = \"Back to menu \u21a9\ufe0f\""
+              }
+            ]
+          },
+          "tags": [],
+          "uuid": "8faa92e8-6fe9-5a1e-8ee9-fb6eb4bc56ca",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "ref_Next",
+              "config": {},
+              "test": "",
+              "uuid": "e40a20ef-7bbd-47fb-912a-ef717487a3d2",
+              "destination_block": "b3be7615-b7eb-58d8-b0fb-2795e5cdd6fa",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "buttons_metadata": {},
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 22
+                      },
+                      "name": "Next",
+                      "uuid": "ae88cbf3-4039-53dd-9e9c-b0995a15d962"
+                    },
+                    "card_item": {
+                      "button_block": {},
+                      "meta": {
+                        "column": 3,
+                        "line": 23
+                      },
+                      "type": "button_block"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Wrap_up",
+          "type": "Core.Output",
+          "config": {
+            "value": "ref_Next"
+          },
+          "tags": [],
+          "uuid": "b3be7615-b7eb-58d8-b0fb-2795e5cdd6fa",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": true,
+              "name": "Wrap_up",
+              "config": {},
+              "test": "",
+              "uuid": "ce10efb8-061e-4cda-8d0c-9e6d2261a503",
+              "destination_block": "c1b0d7b5-b00b-5f0c-8eb1-0467c69d7735",
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 22
+                      },
+                      "name": "Next",
+                      "uuid": "ae88cbf3-4039-53dd-9e9c-b0995a15d962"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 30
+                      },
+                      "type": "write_result",
+                      "write_result": {}
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": null,
+          "name": "Routing for Next",
+          "type": "Core.Case",
+          "config": {},
+          "tags": [],
+          "uuid": "c1b0d7b5-b00b-5f0c-8eb1-0467c69d7735",
+          "ui_metadata": {
+            "canvas_coordinates": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "exits": [
+            {
+              "default": false,
+              "name": "Exit for Crisis_management",
+              "config": {},
+              "test": "ref_Next == \"\tSession Planning \ud83d\udcc5\"",
+              "uuid": "e3f65e97-95e8-4ca8-a45a-918077e8cf01",
+              "destination_block": "31cb8ff6-05ef-5d19-a836-8c9a10df15e3",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": false,
+              "name": "Exit for Learn_Explore",
+              "config": {},
+              "test": "ref_Next == \"Resource Library \ud83d\udcda\"",
+              "uuid": "84af475c-b1b5-42f7-926f-cb4c23799811",
+              "destination_block": "32b53f47-e3c9-5195-bea1-40481a7a3424",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": false,
+              "name": "Exit for ParentMenu",
+              "config": {},
+              "test": "ref_Next == \"Back to menu \u21a9\ufe0f\"",
+              "uuid": "a5e0da76-8339-48ea-87e6-93473f4f890e",
+              "destination_block": "2079fca7-ae74-5d92-b960-00f604da96c9",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": false,
+              "name": "Exit for RetryNext",
+              "config": {},
+              "test": "true",
+              "uuid": "19d6df33-893c-485c-a7cf-c3956d0f6a0b",
+              "destination_block": "9186683b-fb78-59c0-9eb9-b684bf87c175",
+              "semantic_label": null,
+              "vendor_metadata": {}
+            },
+            {
+              "default": true,
+              "name": "Routing for Next",
+              "config": {},
+              "test": "",
+              "uuid": "bf48cd3b-f1b5-45c8-80cc-09bc192fd386",
+              "destination_block": null,
+              "semantic_label": "",
+              "vendor_metadata": {}
+            }
+          ],
+          "semantic_label": null,
+          "vendor_metadata": {
+            "io": {
+              "turn": {
+                "stacks_dsl": {
+                  "0.1.0": {
+                    "card": {
+                      "condition": null,
+                      "meta": {
+                        "column": 1,
+                        "line": 22
+                      },
+                      "name": "Next",
+                      "uuid": "ae88cbf3-4039-53dd-9e9c-b0995a15d962"
+                    },
+                    "card_item": {
+                      "meta": {
+                        "column": 3,
+                        "line": 31
+                      },
+                      "then": {},
+                      "type": "then"
+                    },
+                    "index": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "last_modified": "2024-09-06T19:34:03.349133Z",
+      "uuid": "5224820d-e604-535d-8140-1205a30972db",
+      "languages": [
+        {
+          "id": "b60882af-0565-4ba4-b375-2b189dc02a16",
+          "label": "English",
+          "variant": null,
+          "iso_639_3": "eng",
+          "bcp_47": null
+        }
+      ],
+      "first_block_id": "00c53577-6d2b-5df7-a6d4-e711dba32826",
+      "interaction_timeout": 300,
+      "vendor_metadata": {},
+      "supported_modes": [
+        "RICH_MESSAGING"
+      ],
+      "exit_block_id": ""
+    }
+  ],
+  "vendor_metadata": {},
+  "specification_version": "1.0.0-rc3"
+}
