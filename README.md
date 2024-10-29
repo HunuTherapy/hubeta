@@ -22,5 +22,5 @@ The goal is to simplify creating interactive, responsive conversations tailored 
 - Floip Flow Builder - https://floip.github.io/flow-builder/#
 
 # How to get started
-1. Download desired converstaion flow in journerys/
+1. Download desired converstaion flow in [journeys/](https://github.com/HunuTherapy/hubeta/tree/main/journeys)
 2. Upload or paste JSON into this FLOIP sandbox - https://floip.github.io/flow-builder/#/
