@@ -16,9 +16,11 @@ This project allows developers and educators to:
    
 The goal is to simplify creating interactive, responsive conversations tailored to educational and support contexts.
 
-
-
 # Examples of Compatible Software
 - Open-source Flow Runner - https://github.com/turnhub/flow_runner
 - Viamo - https://viamo.io/services/viamo-platform/
+- Floip Flow Builder - https://floip.github.io/flow-builder/#
 
+# How to get started
+1. Download desired converstaion flow in journerys/
+2. Upload or paste JSON into this FLOIP sandbox - https://floip.github.io/flow-builder/#/
